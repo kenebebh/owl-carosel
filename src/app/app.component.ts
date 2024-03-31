@@ -26,7 +26,7 @@ export class AppComponent {
         items: 1, //Shows one slide item on screens between 740px and 940px wide.
       },
       940: {
-        items: 2, //Shows two slide items on screens 940px wide and above
+        items: 1, //Shows two slide items on screens 940px wide and above
       },
     },
     nav: true, //Enables navigation buttons for moving between slides

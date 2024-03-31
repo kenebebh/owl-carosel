@@ -1,20 +1,21 @@
 <main class="main">
-  <div>Some tags before</div>
-  <owl-carousel-o [options]="customOptions">
-    <ng-template carouselSlide>
-      <img src="../assets/images/img1.jpg" alt="img1">
-    </ng-template>  
-    <ng-template  carouselSlide>
-      <img src="../assets/images/img4.jpg" alt="img4">
-    </ng-template>  
-    <ng-template carouselSlide>
-      <img src="../assets/images/img3.jpg" alt="img3">
-    </ng-template>  
-    <ng-template carouselSlide>
-      <img src="../assets/images/img2.jpg" alt="img3">
-    </ng-template>
-  </owl-carousel-o>
-  <div>Some tags after</div>
+  <div class="container">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <img src="../assets/images/img1.jpg" alt="img1">
+      </ng-template>  
+      <ng-template  carouselSlide>
+        <img src="../assets/images/img4.jpg" alt="img4">
+      </ng-template>  
+      <ng-template carouselSlide>
+        <img src="../assets/images/img3.jpg" alt="img3">
+      </ng-template>  
+      <ng-template carouselSlide>
+        <img src="../assets/images/img2.jpg" alt="img3">
+      </ng-template>
+    </owl-carousel-o>
+
+  </div>
 </main>
 
 <router-outlet />
